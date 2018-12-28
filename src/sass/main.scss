@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+@import
+    '00-generic/_base';
+
+
+
+// 1. Components – specific UI components. This is where majority of our work takes place and our UI components are often composed of Objects and Components
+
+@import
+    '01-components/Button',
+    '01-components/Navigation',
+    '01-components/HomePage',
+    '01-components/InfoPage',
+    '01-components/Collections',
+    '01-components/Order',
+    '01-components/Footer';
+
+
+  // 2. Utilities– utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
+@import
+    '02-utilities/_animations';
+
+// 3. Tools – media-queries for responsive design
+@import
+    '03-tools/media-queries';

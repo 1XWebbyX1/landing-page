@@ -1,0 +1,119 @@
+//for mobile phones and tablets_____________________
+@media only screen and (max-width: 800px) {
+
+  #app nav ul{
+    margin: 0;
+    padding: 0;
+    li a{
+    padding-top: 15px!important;
+     margin-right: 0!important ;
+   }
+  }
+
+  #home{
+    >img{
+       width: 40vmax;
+       height: 45vh;
+       margin-top: 10%;
+    }
+    >h1{
+      color: #997300;
+      left: 65% !important;
+    }
+  }
+
+  #durability{
+    height: 100vh;
+    .information{
+    >h1{
+      position: absolute;
+      top: 1%;
+      left: calc(0rem + 3vw);
+      text-align: center;
+      color: #997300
+;
+    }
+    >p{
+      top: 7%;
+      padding: 6% 3%;
+      width: 90%;
+      text-align: center;
+     }
+
+     #features{
+      visibility: hidden;
+     }
+
+     >button{
+       top: 30%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+     }
+    }
+    >img{
+      width: 30vmax;
+      height: 42vh;
+    }
+    #front-img{
+      top: 40%;
+      left: calc(0rem + 10vw);
+    }
+    #back-img{
+      top: 40%;
+      left: calc(2rem + 45vw);
+    }
+  }
+
+  #collection{
+    height: 150vh;
+    .information{
+      >h1{
+        top: 1%;
+        color:  #997300;
+      }
+      >p{
+        top: 4%;
+      }
+    }
+    .collection{
+      top: 20%;
+      flex-direction: column;
+    .container{
+      width: 90%;
+      height: 52vh;
+     }
+    }
+  }
+
+  body #order{
+    margin-top: 100%;
+    .form{
+      width: 100%;
+      height: 90%;
+
+      form{
+        flex-direction: column;
+
+        .left-box{
+          width: 100%;
+          height: 50%;
+          border: none;
+          border-bottom: 2px solid #444;
+
+          .field .card{
+            padding: 1%;
+          }
+        }
+        .right-box{
+          height: 50%;
+          width: 100%;
+        }
+      }
+    }
+   }
+
+   body #footer{
+     height: 200px;
+   }
+}
+//--------------------------------------------------------

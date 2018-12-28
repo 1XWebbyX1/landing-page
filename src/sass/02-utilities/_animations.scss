@@ -1,0 +1,78 @@
+//sliding left animation_______________________
+ .slide-left {
+  opacity: 0;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -moz-transform: translate3d(-100px, 0px, 0px);
+  -webkit-transform: translate3d(-100px, 0px, 0px);
+  -o-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate3d(-100px, 0px, 0px);
+}
+
+ .slide-left.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+   }
+
+.slide-left.slide{
+  -moz-transition: all 1500ms linear;
+  -webkit-transition: all 1500ms linear;
+  -o-transition: all 1500ms linear;
+  transition: all 1500ms linear;
+}
+
+//------------------------------------------------
+
+
+//sliding top animation___________________________
+
+.slide-top {
+  opacity: 0;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -moz-transform: translate3d(0px, 100px, 0px);
+  -webkit-transform: translate3d(0px, 100px, 0px);
+  -o-transform: translate(0px, 100px);
+  -ms-transform: translate(0px, 100px);
+  transform: translate3d(0px, 100px, 0px);
+}
+
+ .slide-top.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+   }
+
+
+//------------------------------------------------
+
+
+
+//blink animation for vectors____________________________
+.blink{
+  animation: blinkAnim 3s ease infinite;
+}
+
+@keyframes blinkAnim{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: .5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
