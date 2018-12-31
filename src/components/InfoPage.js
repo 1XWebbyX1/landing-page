@@ -16,7 +16,7 @@ class Durability extends React.Component{
           <h1>Product Description</h1>
           <p>Describe your awesome product here.. Could be anything...
              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <p id='features'>Some key features....Lorem ipsum dolor sit amet consectetur adipiscing </p>
+          <p id='features'>Some key features....Lorem ipsum dolor sit amet consectetur adipiscing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
          <button>Find out more</button>
         </div>
       </section>

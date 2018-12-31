@@ -1,12 +1,12 @@
 //for mobile phones and tablets_____________________
 @media only screen and (max-width: 800px) {
 
-  #app nav ul{
+  body #navbar nav ul{
     margin: 0;
     padding: 0;
     li a{
-    padding-top: 15px!important;
-     margin-right: 0!important ;
+     margin-left: 4px!important ;
+     margin-top: 12px;
    }
   }
 
@@ -45,22 +45,23 @@
      }
 
      >button{
-       top: 30%;
+       top: 34%;
        left: 50%;
+       background: #e67300;
        transform: translate(-50%, -50%);
      }
     }
     >img{
-      width: 30vmax;
-      height: 42vh;
+      width: 25vmax;
+      height: 30vh;
     }
     #front-img{
-      top: 40%;
-      left: calc(0rem + 10vw);
+      top: 45%;
+      left: 0%;
     }
     #back-img{
-      top: 40%;
-      left: calc(2rem + 45vw);
+      top: 45%;
+      left: 50%;
     }
   }
 
@@ -100,16 +101,38 @@
           border: none;
           border-bottom: 2px solid #444;
 
-          .field .card{
-            padding: 1%;
+          .field {
+            height: 80%;
+            margin: 5px auto;
+          .card{
+            padding: 0.5%;
+            input{
+              height: 40px;
+            }
           }
+         }
+         #message{
+           height:  80px;
+         }
+
         }
+
         .right-box{
           height: 50%;
           width: 100%;
+
+          #handbag-img{
+            margin-top: 4%;
+            width: 9em;
+            height: 9em;
+          }
         }
       }
     }
+   }
+   #order:focus-within{
+     height: 800px;
+     z-index: 99;
    }
 
    body #footer{

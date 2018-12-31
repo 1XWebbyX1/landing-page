@@ -16,13 +16,13 @@
         display: inline-block;
       a {
         display: block;
-        padding: 15px;
+        padding: 12px;
         text-decoration: none;
         color: #aaa;
         font-size: calc(0.8rem + 0.3vw);
         font-weight: 800;
         text-transform: uppercase;
-        margin: 0 10px;
+        margin-left: 8px;
         transition: all .5s;
         &:after, &:before {
            transition: all .5s;
@@ -62,7 +62,7 @@ nav.stroke ul li a{
       right: 6%;
       font-size: calc(0.8rem + 0.3vw);
       color: #aaa;
-      padding: 10px 0;
+      padding: 20px 0;
       cursor: default;
     }
 }

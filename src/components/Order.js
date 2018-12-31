@@ -39,7 +39,7 @@ class Order extends React.Component{
             <img id='handbag-img' class='anim slide-top' src={HandbagImg} alt='handbag vector'/>
             <img id='stars-img-2' class='blink' src={StarsImg} alt='stars vector'/>
             </div>
-            <button id='send-order'>Send My Order</button>
+            <button id='send-order'>Place My Order</button>
           </div>
           </form>
         </div>
