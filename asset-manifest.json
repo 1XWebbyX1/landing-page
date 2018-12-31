@@ -1,7 +1,7 @@
 {
-  "main.css": "/landing-page/static/css/main.77ca477b.chunk.css",
-  "main.js": "/landing-page/static/js/main.30c61fd7.chunk.js",
-  "main.js.map": "/landing-page/static/js/main.30c61fd7.chunk.js.map",
+  "main.css": "/landing-page/static/css/main.568d8596.chunk.css",
+  "main.js": "/landing-page/static/js/main.e979fbec.chunk.js",
+  "main.js.map": "/landing-page/static/js/main.e979fbec.chunk.js.map",
   "static/js/1.147b6c0d.chunk.js": "/landing-page/static/js/1.147b6c0d.chunk.js",
   "static/js/1.147b6c0d.chunk.js.map": "/landing-page/static/js/1.147b6c0d.chunk.js.map",
   "static/js/2.719969c8.chunk.js": "/landing-page/static/js/2.719969c8.chunk.js",
@@ -21,8 +21,8 @@
   "static/media/handbag.svg": "/landing-page/static/media/handbag.7aa23f77.svg",
   "static/media/handbag_back.jpg": "/landing-page/static/media/handbag_back.31c60647.jpg",
   "static/media/handbag_front.jpg": "/landing-page/static/media/handbag_front.cce9e3c1.jpg",
-  "static/css/main.77ca477b.chunk.css.map": "/landing-page/static/css/main.77ca477b.chunk.css.map",
+  "static/css/main.568d8596.chunk.css.map": "/landing-page/static/css/main.568d8596.chunk.css.map",
   "index.html": "/landing-page/index.html",
-  "precache-manifest.69a40939f1be289003506faf51e45b89.js": "/landing-page/precache-manifest.69a40939f1be289003506faf51e45b89.js",
+  "precache-manifest.8dd83e5b332480534782d44e2be4ee23.js": "/landing-page/precache-manifest.8dd83e5b332480534782d44e2be4ee23.js",
   "service-worker.js": "/landing-page/service-worker.js"
 }
