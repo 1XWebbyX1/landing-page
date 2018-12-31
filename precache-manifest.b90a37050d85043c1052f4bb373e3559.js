@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f1abf11be50a9ef9bd94",
-    "url": "/landing-page/static/css/main.e9ef8b1d.chunk.css"
+    "revision": "d6db16dd652b7e6fbda2",
+    "url": "/landing-page/static/css/main.e32a725b.chunk.css"
   },
   {
-    "revision": "f1abf11be50a9ef9bd94",
-    "url": "/landing-page/static/js/main.f1abf11b.chunk.js"
+    "revision": "d6db16dd652b7e6fbda2",
+    "url": "/landing-page/static/js/main.d6db16dd.chunk.js"
   },
   {
     "revision": "147b6c0d946721962781",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/landing-page/static/media/handbag_front.cce9e3c1.jpg"
   },
   {
-    "revision": "6d47b63a16dab373cc9f552775162725",
+    "revision": "004bb483f4d041d75d7c1fad4b71af68",
     "url": "/landing-page/index.html"
   }
 ];
