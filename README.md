@@ -20,7 +20,6 @@ This Project was inspired by (not entirely based on) suggested  user stories  at
 # ToDo
 
 - Add React Routers
-- resizing for mobile devices
 
 # License
 
