@@ -76,7 +76,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-      }
 
 
       #stars-img-1{
@@ -93,9 +92,10 @@
         animation-delay: 1s;
       }
       #handbag-img{
-        width: calc(12em + 4.5vmax);
-        height: calc(12em + 4.5vmax);
+        width: calc(12em + 4.5vw);
+        height: calc(12em + 4.5vw);
       }
+    }
 
       >button{
        padding: 3% 4%;

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import $ from 'jquery'
+import 'babel-polyfill';
 require('jquery-mousewheel');
 
 ReactDOM.render(<App />, document.getElementById('root'));

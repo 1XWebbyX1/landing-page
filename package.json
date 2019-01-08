@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://1XWebbyX1.github.io/landing-page",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "jquery-mousewheel": "^3.1.13",
     "node-sass": "^4.11.0",

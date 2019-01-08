@@ -38,10 +38,9 @@
       border: 2px solid black;
    }
 
-  }
-
   .container{
     position: relative;
+    width: 32vw;//fallback for ie
     width: 32vmax;
     height: 50vh;
     margin-top: 10% !important;
@@ -80,6 +79,7 @@
       }
     }
   }
+}
 
   .upper{
     margin-top: 8% !important;
