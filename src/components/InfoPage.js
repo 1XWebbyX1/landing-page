@@ -1,7 +1,7 @@
 
 import React from 'react'
 import sideImg from '../images/InfoPage/side_img.jpg';
-import frontImg from '../images/InfoPage/front_img.jpg';
+import leftImg from '../images/InfoPage/front_img.jpg';
 
 
 
@@ -10,8 +10,8 @@ class Durability extends React.Component{
   render() {
     return(
       <section id='durability'>
-         <img id='front-img' class='anim slide-left slide' src={frontImg} alt='front-handbag-img'/>
-         <img id='back-img' class='anim slide-left' src={sideImg} alt='side-handbag-img' />
+         <img id='left-img' class='anim slide-left slide' src={leftImg} alt='front-handbag-img'/>
+         <img id='right-img' class='anim slide-left' src={sideImg} alt='side-handbag-img' />
         <div class='information'>
           <h1>Product Description</h1>
           <p>Describe your awesome product here.. Could be anything...

@@ -13,22 +13,22 @@ class Order extends React.Component{
           <div class='field'>
            <h1>Pre-Order</h1>
            <div class='card'>
-            <label id="dropdown-label"> Product </label>
+            <label for='dropdown' id="dropdown-label"> Product </label>
             <select name="roles" id="dropdown">
               <option>Product1</option>
               <option>Product2</option>
            </select><br />
            </div>
            <div class='card'>
-           <label id='name-label'>Name</label>
-           <input name='name' type='text' required/><br />
+           <label for='name' id='name-label'>Name</label>
+           <input id='name' name='name' type='text' required/><br />
            </div>
            <div class='card'>
-           <label id='email-label'>Email</label>
-           <input name='email' type='email' required/><br />
+           <label for='email' id='email-label'>Email</label>
+           <input id='email' name='email' type='email' required/><br />
            </div>
            <div class='card'>
-           <label id='message-label'>Message</label>
+           <label for='message' id='message-label'>Message</label>
            <textarea id='message' name='message' type='text'></textarea><br />
            </div>
            </div>
