@@ -8,7 +8,7 @@ class Navigation extends React.Component{
         <nav class="stroke">
            <ul>
              <li><a href="#collection">Collections</a></li>
-             <li><a href="#order">Pre Order</a></li>
+             <li><a href="#order">Pre-Order</a></li>
             </ul>
             <div id='logo'>THE LOGO</div>
           </nav>

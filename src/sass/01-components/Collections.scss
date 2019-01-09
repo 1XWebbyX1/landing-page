@@ -13,6 +13,7 @@
       left: calc(0rem + 3vw);
       color: white;
      font-size: calc(1rem + 3vw);
+     user-select: none;
    }
 
     >p{
@@ -22,6 +23,7 @@
       color: white;
       font-size: calc(1rem + 0.3vw);
       padding: 4%;
+      user-select: none;
     }
 
   }

@@ -11,7 +11,7 @@ class Order extends React.Component{
           <form action='#'>
           <div class='left-box'>
           <div class='field'>
-           <h1>Pre Order</h1>
+           <h1>Pre-Order</h1>
            <div class='card'>
             <label id="dropdown-label"> Product </label>
             <select name="roles" id="dropdown">
