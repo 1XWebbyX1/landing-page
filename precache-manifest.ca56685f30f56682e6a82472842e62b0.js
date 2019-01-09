@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "9b332c24a98e88134b7a",
-    "url": "/landing-page/static/css/main.109aa3fd.chunk.css"
+    "revision": "7e1c746fecbed0336414",
+    "url": "/landing-page/static/css/main.340a0776.chunk.css"
   },
   {
-    "revision": "9b332c24a98e88134b7a",
-    "url": "/landing-page/static/js/main.9b332c24.chunk.js"
+    "revision": "7e1c746fecbed0336414",
+    "url": "/landing-page/static/js/main.7e1c746f.chunk.js"
   },
   {
-    "revision": "136e38d5129d42b03c12",
-    "url": "/landing-page/static/js/1.136e38d5.chunk.js"
+    "revision": "bba98ca90ad8e79914c7",
+    "url": "/landing-page/static/js/1.bba98ca9.chunk.js"
   },
   {
     "revision": "ef37b6c2d9f633719668",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/landing-page/static/js/4.400f31c6.chunk.js"
   },
   {
-    "revision": "e7421d65437b66230af5",
-    "url": "/landing-page/static/js/runtime~main.e7421d65.js"
+    "revision": "110f4f4ad6a8b175cc90",
+    "url": "/landing-page/static/js/runtime~main.110f4f4a.js"
   },
   {
     "revision": "25dd9682e785ac2f423eeceab3073635",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/landing-page/static/media/handbag_front.cce9e3c1.jpg"
   },
   {
-    "revision": "e303d915b4ef95d83a07fdd4169dd360",
+    "revision": "9bdd6763b3203aacdb4012795bf6ece2",
     "url": "/landing-page/index.html"
   }
 ];
