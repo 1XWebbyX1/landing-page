@@ -98,10 +98,15 @@
     }
 
       >button{
-       padding: 3% 4%;
+       padding: 3% 8%;
+       border: none;
+       //border-radius: 25px;
        color: black;
-       font-weight: 800;
-       background: linear-gradient(#b36b00, #ff9900, #b36b00);
+       font-weight: 400;
+       background: linear-gradient(25deg, #ff6666, #ff6666, #ff9900);
+       &:hover{
+         box-shadow: inset -500px 0px #ff9900, 0px 0px 20px #ff6666;
+       }
       }
     }
   }

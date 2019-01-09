@@ -6,43 +6,34 @@
   .information{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
 
     >h1{
-      position: absolute;
-      top: 4%;
-      right: calc(0rem + 0.5vw);
-      padding: 4%;
+      margin: 7% 4%;
+      margin-bottom: 2%;
       color: white;
       text-align: right;
       font-size: calc(1rem + 3vw);
    }
 
     >p{
-      position: absolute;
-      top: 17%;
-      right: calc(0rem + 0.5vw);
       color: white;
+      margin: 0 4%;
       font-size: calc(1rem + 0.3vw);
-      padding: 4%;
       width: 50%;
       text-align: right;
     }
 
     #features{
-      position: absolute;
-      top: 30%;
-      right: calc(0rem + 0.5vw);
       color: #e67300;
       font-size: calc(1rem + 0.3vw);
-      padding: 4%;
+      margin: 2% 4%;
       width: 35%;
       text-align: center;
     }
     >button{
-      position: absolute;
-      top: 60%;
-      left: 78%;
-      transform: translateX(-50%);
+      margin: 2% 8%;
     }
 
   }
