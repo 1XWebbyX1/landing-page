@@ -10,7 +10,8 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 var $animation_elements = $('.anim');
 var $window = $(window);
-console.log($animation_elements);
+
+
 function check_if_in_view() {
   var window_height = $window.height();
   var window_top_position = $window.scrollTop();

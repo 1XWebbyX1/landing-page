@@ -1,22 +1,11 @@
 
 import React from 'react'
-import asyncComponent from './asyncComponent/async';
+import HomePage from './HomePage'
 import Durability from './InfoPage'
 import Collection from './Collections'
 import Order from './Order'
-
-const Navigation = asyncComponent(() =>
-        import('./Navigation').then(module => module.default)
-);
-const HomePage = asyncComponent(() =>
-        import('./HomePage').then(module => module.default)
-);
-
-const Footer = asyncComponent(() =>
-        import('./Footer').then(module => module.default)
-);
-
-
+import Footer from './Footer'
+import Navigation from './Navigation'
 
 class Wrapper extends React.Component{
   render() {
