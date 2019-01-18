@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{359:function(n,i,o){"use strict";o.r(i),o.d(i,"check_if_in_view",function(){return c});var e=o(101),s=o.n(e),t=s()(".anim"),a=s()(window);function c(){var n=a.height(),i=a.scrollTop(),o=i+n;s.a.each(t,function(){var n=s()(this),e=n.outerHeight(),t=n.offset().top;t+e>=i&&t<=o?(n.addClass("in-view"),console.log("added")):n.removeClass("in-view")})}}}]);
+//# sourceMappingURL=1.6e6377b5.chunk.js.map
